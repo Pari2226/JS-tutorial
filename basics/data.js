@@ -28,3 +28,21 @@ const Functions = function(){
 console.log(typeof bigNumber);
 console.log(typeof Functions);
 
+// ******Stack(Primitive) and heap memory(non-primitive)
+let myYtname = "You are Beautiful";
+let anName = myYtname
+anName = "You ate."
+
+console.log(myYtname);
+console.log(anName);
+
+let user1 ={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+let user2 = user1
+
+user2.email = "Hellooo@gmail.com";
+console.log(user1.email);
+console.log(user2.email);
+
